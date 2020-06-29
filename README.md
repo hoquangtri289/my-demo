@@ -1,2 +1,0 @@
-# my-demo
-Dang test
