@@ -6,6 +6,9 @@ app.get('/', (req, res) => {
     console.log('hello');
 })
 
+app.get('/new', (req, res) => {
+    res.json({new: '/new'});
+})
 let port = process.env.PORT || 3000;
 
 app.listen(port, () => {
