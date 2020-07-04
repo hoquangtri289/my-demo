@@ -2,8 +2,11 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-    res.json({message: "hello to dev", new: "/new"});
-    console.log('hello');
+    res.json({
+        message: 'hello app',
+        name: 'Ho Quang Tri',
+        branch: 'master'
+    });
 })
 
 let port = process.env.PORT || 3000;

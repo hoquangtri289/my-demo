@@ -15,8 +15,8 @@
     "url": "https://github.com/hoquangtri289/my-demo/issues"
   },
   "homepage": "https://github.com/hoquangtri289/my-demo#readme",
-  "description": "",
   "dependencies": {
     "express": "^4.17.1"
-  }
+  },
+  "description": ""
 }
