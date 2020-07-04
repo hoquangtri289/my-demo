@@ -7,9 +7,16 @@ app.get('/', (req, res) => {
         name: 'Ho Quang Tri',
         branch: 'master'
     });
-})
+});
 
-let port = process.env.PORT || 3000;
+app.get('/new', (req, res) => {
+    res.json({
+        message: 'new',
+        date: new Date()
+    })
+});
+
+let port = process.env.PORT || 5000;
 
 app.listen(port, () => {
     console.log(`server on run at port: ${port}`);
