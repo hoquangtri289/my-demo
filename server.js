@@ -16,6 +16,14 @@ app.get('/new', (req, res) => {
     })
 });
 
+app.get('/admin', (req, res) => {
+    res.json({
+        title: 'admin',
+        username: 'username',
+        password: 'password'
+    })
+})
+
 let port = process.env.PORT || 5000;
 
 app.listen(port, () => {
